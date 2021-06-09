@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-header {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-color: #1e1e1e;
+  height: 20vh;
+}
+
+#nav-bar a {
+  height: 80%;
+  cursor: pointer;
+}
+
+#nav-bar a img {
+  height: 100%;
+}
+
+#nav-bar #navbar-coupon-btn {
+  position: absolute;
+  right: 2rem;
+  background-color: #fdd800;
+  height: 50%;
+  font-size: 1.5rem;
+  font-family: "Teko";
+}
+
+#mission-statement {
+  max-width: 40%;
+  padding: 3rem 4.5rem 2.5rem 4.5rem;
+  border-radius: 30px;
+  background-color: #fdd800;
+  position: absolute;
+  bottom: 3rem;
+  left: 3.5rem;
+}
+
+#mission-statement h3 {
+  font-family: "Teko";
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+#mission-statement p {
+  margin-bottom: 0.8rem;
+}
+
+#mission-statement #mission-statement-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.5rem;
+  color: #ffffff;
+}
+
+#mission-statement #mission-statement-socials div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mission-statement #mission-statement-socials div i {
+  margin-right: 0.3rem;
+  font-size: 1.4rem;
+}
+
+#mission-statement #mission-statement-socials div span {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#mission-statement #mission-statement-socials div span:hover {
+  text-decoration: underline;
+}
+
+#header-circle {
+  background-color: #1e1e1e;
+  position: absolute;
+  right: -400px;
+  top: -300px;
+  width: 1050px;
+  height: 1050px;
+  border-radius: 50%;
+}
+
+#introduction {
+  max-width: 25rem;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 3.5rem;
+  right: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#introduction h2 {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+#introduction h2 span {
+  color: #f79220;
+}
+
+#introduction p {
+  font-size: 1.2rem;
+}

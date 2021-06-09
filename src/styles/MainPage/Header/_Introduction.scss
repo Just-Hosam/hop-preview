@@ -1,0 +1,22 @@
+#introduction {
+	max-width: 25rem;
+	color: $white;
+	position: absolute;
+	margin-top: 3.5rem;
+	right: 3rem;
+	@include centerFlex(column);
+
+	h2 {
+		width: min-content;
+		font-size: 4rem;
+		margin-bottom: 1.5rem;
+
+		span {
+			color: $orange;
+		}
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+}

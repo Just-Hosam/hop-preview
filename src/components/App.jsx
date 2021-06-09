@@ -1,10 +1,9 @@
-import NavBar from './Header/NavBar';
+import Header from './Header/Header';
 
 function App() {
 	return (
 		<div className="App">
-			<NavBar />
-			<h1>Testing something</h1>
+			<Header />
 		</div>
 	);
 }

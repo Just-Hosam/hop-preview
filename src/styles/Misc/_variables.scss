@@ -1,0 +1,19 @@
+// Colors
+$black: #1e1e1e;
+$orange: #f79220;
+$yellow: #fdd800;
+$white: #ffffff;
+
+// Fonts
+$main-font: 'Montserrat';
+$heading-font: 'Teko';
+
+// Misc
+$border-radius: 30px;
+
+@mixin centerFlex($direction: row) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: center;
+	align-items: center;
+}
